@@ -1,0 +1,15 @@
+[submodule "analytics"]
+	path = analytics
+	url = git@github.com:R0-H-1T/analytics.git
+[submodule "auth"]
+	path = auth
+	url = git@github.com:R0-H-1T/auth.git
+[submodule "quizz"]
+	path = quizz
+	url = git@github.com:R0-H-1T/qna.git
+[submodule "quiz_models"]
+	path = quiz_models
+	url = git@github.com:R0-H-1T/quiz-models.git
+[submodule "api_gateway"]
+	path = api_gateway
+	url = git@github.com:R0-H-1T/api_gateway.git

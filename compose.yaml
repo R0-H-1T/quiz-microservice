@@ -1,0 +1,16 @@
+name: quizz-microservice
+
+
+services:
+  compose-qna-image:
+    image: qna-image
+    ports:
+      - "8083:8083"
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+  compose-auth-image:
+    image: auth-image
+    ports:
+      - "8082:8082" 
